@@ -1,13 +1,17 @@
+Hey there! 👋🏻 I'm Andra, and I created this documentation about how to run NodeJS app through Docker Container
+
+This documentation will guide you through the process installing Docker and building NodeJS image and run the Docker container using command prompt or terminal.
+
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Installing Docker on Windows](#installing-docker-on-windows)
-  - [Step 1: Download Docker Desktop](#step-1-download-docker-desktop)
-  - [Step 2: Run the Installer](#step-2-run-the-installer)
-  - [Step 3: Docker Setup Complete](#step-3-docker-setup-complete)
-  - [Step 9: Docker Running](#step-9-docker-running)
-  - [Step 10: Verify Docker Installation](#step-10-verify-docker-installation)
+  - [1. Download Docker Desktop](#1-download-docker-desktop)
+  - [2. Run the Installer](#2-run-the-installer)
+  - [3. Docker Setup Complete](#3-docker-setup-complete)
+  - [4. Docker Running](#4-docker-running)
+  - [5. Verify Docker Installation](#5-verify-docker-installation)
 - [How to build nodejs application into a Docker Container](#how-to-build-nodejs-application-into-a-docker-container)
   - [1. Put node app and package.json in same directory](#1-put-node-app-and-packagejson-in-same-directory)
   - [2. Create a Dockerfile](#2-create-a-dockerfile)
@@ -20,30 +24,30 @@
 
 ## Installing Docker on Windows
 
-### Step 1: Download Docker Desktop
+### 1. Download Docker Desktop
 
 Visit the Docker website at [https://www.docker.com/get-started](https://www.docker.com/get-started) and download the Docker Desktop installer for Windows.
 
 ![Download Docker](img/download-docker.png)
 
-### Step 2: Run the Installer
+### 2. Run the Installer
 
 - Once the Docker Desktop installer is downloaded, double-click on it to run the installation process.
 - Check the option if you want to create Docker Shorcut on desktop
 - Docker is installing, it may takes a few minute
   ![Docker Installer](img/week6.gif)
 
-### Step 3: Docker Setup Complete
+### 3. Docker Setup Complete
 
 Once the installation is finished, Docker Desktop will be launched, and a Docker icon will appear in the system tray.
 
-### Step 9: Docker Running
+### 4. Docker Running
 
 Look for the Docker icon in the system tray. Right-click on the icon to access the Docker menu.
 
 ![Docker Icon](img/docker-tray.png)
 
-### Step 10: Verify Docker Installation
+### 5. Verify Docker Installation
 
 Open a terminal or PowerShell window and run the following command to verify that Docker is installed correctly:
 
