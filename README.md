@@ -1,3 +1,23 @@
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Prerequisites](#prerequisites)
+- [Installing Docker on Windows](#installing-docker-on-windows)
+  - [Step 1: Download Docker Desktop](#step-1-download-docker-desktop)
+  - [Step 2: Run the Installer](#step-2-run-the-installer)
+  - [Step 3: Docker Setup Complete](#step-3-docker-setup-complete)
+  - [Step 9: Docker Running](#step-9-docker-running)
+  - [Step 10: Verify Docker Installation](#step-10-verify-docker-installation)
+- [How to build nodejs application into a Docker Container](#how-to-build-nodejs-application-into-a-docker-container)
+  - [1. Put node app and package.json in same directory](#1-put-node-app-and-packagejson-in-same-directory)
+  - [2. Create a Dockerfile](#2-create-a-dockerfile)
+  - [3. Build docker images using command prompt or terminal.](#3-build-docker-images-using-command-prompt-or-terminal)
+  - [4. Run the docker container.](#4-run-the-docker-container)
+
+## Prerequisites
+- ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+- Node app from  [![Github](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/dashboard)
+
 ## Installing Docker on Windows
 
 ### Step 1: Download Docker Desktop
@@ -76,7 +96,6 @@ Navigate to directory to containing dockerfile and run following command to buil
 docker build -t nodejs-app-name .
 ```
 
-example image when running on my local machine
 ![building docker images](img/docker-images.png)
 
 ### 4. Run the docker container.
