@@ -1,9 +1,17 @@
 {
-    "name": "nodejs-docker-app",
-    "version": "1.0.0",
-    "description": "A simple Node.js app for Docker",
-    "scripts": {
-      "start": "node app.js"
-    }
+  // Package name for the Node.js application.
+  "name": "nodejs-docker-app",
+
+  // Version of the Node.js application.
+  "version": "1.0.0",
+
+  // Description of the Node.js application.
+  "description": "A simple Node.js app for Docker",
+
+  // Scripts section defines commands that can be executed using npm.
+  "scripts": {
+    // The "start" script specifies the command to run the application.
+    // In this case, it runs the "app.js" file using the "node" command.
+    "start": "node app.js"
   }
-  
+}

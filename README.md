@@ -21,6 +21,25 @@ This documentation will guide you through the process installing Docker and buil
 ## Prerequisites
 - ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 - Node app from  [![Github](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/dashboard)
+- Package.json with following code inside:
+  ```bash
+  {
+  // Package name for the Node.js application.
+  "name": "nodejs-docker-app",
+
+  // Version of the Node.js application.
+  "version": "1.0.0",
+
+  // Description of the Node.js application.
+  "description": "A simple Node.js app for Docker",
+
+  // Scripts section defines commands that can be executed using npm.
+  "scripts": {
+    // The "start" script specifies the command to run the application.
+    // In this case, it runs the "app.js" file using the "node" command.
+    "start": "node app.js"
+  }
+  ```
 
 ## Installing Docker on Windows
 
